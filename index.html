@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+     <script>
+        // Add an event listener to the body element
+        document.body.addEventListener("contextmenu", function(e) {
+            // Prevent the default context menu from appearing
+            e.preventDefault();
+        });
+    </script>
 </head>
 <body>
         <img class="logo" src="images/name-College-Logo.jpg">
